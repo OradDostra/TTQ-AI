@@ -1,11 +1,20 @@
 # Tools
 
-MCP tool definitions and function schemas the AI-Analyst agent can invoke.
+Each tool is a JSON file named after the tool, containing its name and description.
 
 ## Naming Convention
 
-`<tool-name>.json` — e.g., `query-database.json`, `fetch-report.json`
+`<toolName>.json` — e.g., `queryDatabase.json`, `fetchReport.json`
 
-## Tool File Format
+## Format
 
-See [`/templates/tool-template.json`](/templates/tool-template.json) for the standard format.
+```json
+{
+  "name": "toolName",
+  "description": "What this tool does and when to use it."
+}
+```
+
+## Example
+
+See [`/templates/tool-template.json`](/templates/tool-template.json)
