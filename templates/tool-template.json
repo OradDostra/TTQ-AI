@@ -1,14 +1,4 @@
 {
-  "name": "tool-name",
-  "description": "What this tool does and when to use it.",
-  "input_schema": {
-    "type": "object",
-    "properties": {
-      "param1": {
-        "type": "string",
-        "description": "Description of param1"
-      }
-    },
-    "required": ["param1"]
-  }
+  "name": "toolName",
+  "description": "What this tool does and when to use it."
 }
